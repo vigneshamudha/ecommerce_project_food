@@ -1,0 +1,155 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ *{
+        margin: auto;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+ }
+ #same
+ {
+        color: orange;
+        text-align: center;
+ }
+ #navbar
+ {
+       position: sticky; 
+       top: 0;
+       left: 0;
+       z-index: 100;
+       padding: .5rem 5rem;
+       box-shadow: 5px 5px 5px rgb(9, 91, 129);
+       background: rgb(0, 0, 0);
+ }
+ .navbar.navbar-brand{
+        font-size: 25px;
+        font-weight: 800px;
+        color: #f700a9;
+ }
+ #navbarSupportedContent a{
+        color:#29f700;
+        border-bottom: 2px solid transparent;
+ }
+ #navbarSupportedContent a:hover{
+        border-bottom: 2px solid skyblue;
+ }
+ #navbarSupportedContent button{
+        background: #29f700;
+        width: 5rem;
+        border-radius: 15px;
+ }
+ section{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+ }
+ #home
+ {
+        background:url(./RTC-Food.jpg);
+        background-size:cover ;
+        background-position: center;
+        flex-direction: column;
+
+ }
+ #home h1{
+        font-size: 100px;
+        color: black;
+        letter-spacing: 3px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 2px 6px 9px chartreuse,
+        2px 7px 9px chartreuse;
+ }
+ #home p{
+        font-size: 18px;
+        color: whitesmoke;
+        font-weight: bold;
+ }
+ #home  .input-group{
+        width: 30%;
+        height: 45px;
+ }
+ .signin{
+        background: green !important;
+        color: white !important;
+        box-shadow: 2px 4px 5px rgba(red, green, blue, alpha);
+ }
+ #about
+ {
+        background: linear-gradient(to right ,#0073f7,#0098f7 100%);
+        display: flex;
+ }
+ #about h1
+ {
+  font-weight: 800;
+  font-size: 50px;
+  color: black;
+}
+#product
+{
+       background: #e5e5e5;
+}
+#product h1
+{
+font-size: 50px;
+letter-spacing: 2px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 700;
+}
+#product img
+{
+       width: 200px;
+       height: 200px;
+}
+.card{
+       width: 300px;
+       height: 300px;
+       background: #e5e5e5;
+       border: none!important;
+       box-shadow: 15px 20px 20px rgba(0, 0,0,.3),
+                     inset 4px 4px 40px white;
+                     border-radius: 20px !important;
+                     overflow: hidden;
+                     justify-content: center;
+                     align-items: center;
+                     margin: 20px 60px;
+}
+.card:hover
+{
+       box-shadow:  inset 5px 5px 10px rgba(0, 0,0,.3),
+                     inset -4px -4px 10px white;
+                     transition: .2s;
+}
+#contact
+{
+       height: 100%;
+}
+.box
+{
+       width: 80% !important;
+       margin-top: 10px;
+}
+form
+{
+  display: flex;
+  flex-direction: column;
+}
+#contact input{
+       margin: 10px 0px;
+       margin: center;
+       display: flex;
+}
+#contact textarea{
+       margin: 10px 0px;
+}
+footer{
+       width: 100%;
+       height: 30px;
+       background: black;
+       margin-top: -30px;
+       text-align: center;
+       color: white;
+       padding: 3px;
+}
